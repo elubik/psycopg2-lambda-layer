@@ -3,9 +3,9 @@ service: psycopg2-lambda-layer
 provider:
   name: aws
   runtime: python3.8
-  region: eu-central-1
-  profile: jb
-  stage: prod
+  region: us-east-1
+  profile: 788845836002
+  stage: dev
 
 layers:
   psycopg2-py38:
